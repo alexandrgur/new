@@ -1,0 +1,55 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.wrap {
+  width: 1920px;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.cervices-title {
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 60px;
+  margin-top: 1113px;
+  margin-left: 864px;
+  margin-bottom: 45px;
+}
+
+.data-title,
+.cloud-title,
+.scince-title,
+.consulting-title {
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  padding: 11px 47px 11px 51px;
+  background: transparent linear-gradient(90deg, #FD2C9A 0%, #5661D5 100%) 0% 0% no-repeat padding-box;
+  border-radius: 28px;
+  opacity: 1;
+}
+
+.data-title {
+    margin-left: 445px;
+}
